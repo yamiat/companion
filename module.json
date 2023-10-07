@@ -1,0 +1,47 @@
+{
+  "id": "yamiat-companion",
+  "name": "yamiat-companion",
+  "author": "Martin Trenker",
+  "title": "Yamiat Companion",
+  "license": "MIT License",
+  "description": "",
+  "version": "0.0.1",
+  "download": "",
+  "manifest": "",
+  "readme": "",
+  "changelog": "",
+  "url": "",
+  "minimumCoreVersion": "10.282",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "10.282",
+    "verified": 10
+  },
+  "authors": [
+    {
+      "name": "Martin Trenker",
+      "email": "martin@yamiat.com",
+      "url": "https://yamiat.com",
+      "patreon": "",
+      "discord": ""
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "system": [],
+  "relationships": {
+    "systems": []
+  },
+  "scripts": [],
+  "esmodules": [
+    "dist/main.js"
+  ],
+  "styles": [],
+  "packs": [],
+  "socket": true
+}
