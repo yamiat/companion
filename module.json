@@ -6,11 +6,12 @@
   "license": "MIT License",
   "description": "",
   "version": "0.0.1",
-  "download": "",
-  "manifest": "",
   "readme": "",
   "changelog": "",
-  "url": "",
+  "url": "https://github.com/yamiat/companion",
+  "bugs": "https://github.com/yamiat/companion",
+  "manifest": "https://raw.githubusercontent.com/yamiat/companion/main/module.json",
+  "download": "https://github.com/yamiat/companion/archive/refs/heads/main.zip",
   "minimumCoreVersion": "10.282",
   "compatibleCoreVersion": "10",
   "compatibility": {
@@ -33,7 +34,6 @@
       "path": "lang/en.json"
     }
   ],
-  "system": [],
   "relationships": {
     "systems": []
   },
