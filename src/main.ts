@@ -100,7 +100,7 @@ const fetchExport = async (exportId: string) => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'authorization': "Bearer " + token,
+      'x-api-key': token,
     },
     body: JSON.stringify({
       query,

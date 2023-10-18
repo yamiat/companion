@@ -7,7 +7,6 @@ const query = `
     }
   }
 `;
-// shortens name to the first 3 letters of each word
 const shortenName = (name) => {
     return name.split(" ").map((x) => x.substring(0, 3)).join("");
 };
@@ -81,7 +80,7 @@ const fetchExport = async (exportId) => {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'authorization': "Bearer " + token,
+            'x-api-key': token,
         },
         body: JSON.stringify({
             query,
